@@ -63,9 +63,11 @@ De forma a compreender melhor as necessidades das duas novas entidades, testei a
 
 ### Wireframes
 
-Browser: https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=Oepliag7sPoOdZmjJbbF#G1UtoM9lLudevaDxgiEKkVN0QICoP9f2sg
+Browser: [Viewer](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&page-id=Oepliag7sPoOdZmjJbbF#G1UtoM9lLudevaDxgiEKkVN0QICoP9f2sg)
 
-Mobile: https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1zmbUmnDt-584DBIALFURkIHKLhgxERt_
+Mobile: [Viewer](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1zmbUmnDt-584DBIALFURkIHKLhgxERt_)
+
+No directório Wireframe estão os ficheiros .png que representam os Wireframes.
 
 ### Mockups
 
@@ -75,8 +77,9 @@ No directório Mockups estão os ficheiros .png que representam os Mockups.
 
 No directório estão os Protótipos estão os ficheiros html que representam os wireframes e os mockups criados em HTML5. 
 
-### Referencias
+### Referências
 
-* https://documenter.getpostman.com/view/4604741/SWE6byDX#3a10ba2a-c739-4122-9484-f3a277bf41b3
-* https://fcawebbook2.herokuapp.com/
-* https://rqueiros.github.io/vue-animalec/
+* [Documentação da API](https://documenter.getpostman.com/view/4604741/SWE6byDX#3a10ba2a-c739-4122-9484-f3a277bf41b3)
+* [Back-office do animalec](https://fcawebbook2.herokuapp.com/)
+* [Animalec](https://rqueiros.github.io/vue-animalec/)
+* Livro "Desenvolvimento avançado para a web". Ricardo Queirós & Filipe Portela 
