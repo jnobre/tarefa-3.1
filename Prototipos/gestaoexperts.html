@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANIMALEC</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Barra Navegação -->
+        <div>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a href="#" class="navbar-brand ml-5">
+                    <img class="router-link-active" src="img/animalec_line.png" title="Página principal do Animalec"
+                        style="width: 250px; height: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto mr-5">
+                        <li class="nav-item"><a href="#" class="nav-link" target="_self">ANIMAIS</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link" target="_self">QUIZZES</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link" target="_self">CONTACTOS</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link" target="_self">ADMIN</a></li>
+                </div>
+                </ul>
+            </nav>
+        </div>
+        <!-- ./Barra Navegação -->
+
+        <section class="page-section">
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2 class="page-section-heading mt-5">GESTÃO DE EXPERTS</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="divider-custom">
+                            <div class="divider-custom-line"></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-1"></div>
+                <div class="col">
+                    <a href="addexperts.html" class="btn btn-outline-success mr-2 mt-2"><i
+                            class="fas fa-plus-square"></i> ADICIONAR EXPERT</a>
+                    <a href="index.html" class="btn btn-outline-info mr-2 mt-2 router-link-active"><i
+                            class="fas fa-bars"></i> MENU PRINCIPAL</a>
+                </div>
+                <div class="col-1"></div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-1"></div>
+
+                <div class="col">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">NOME <i class="fas fa-arrow-up"></i></th>
+                                <th scope="col">ESPÉCIE</th>
+                                <th scope="col">DATA DE CRIAÇÃO</th>
+                                <th scope="col">AÇÕES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="pt-4">João Nobre</td>
+                                <td class="pt-4">Aves</td>
+                                <td class="pt-4">
+                                    2021-04-27 10:52:00
+                                </td>
+                                <td><button class="btn btn-outline-success mr-2"><i class="fas fa-edit"></i> EDITAR
+                                    </button><button type="button" class="btn btn-outline-success mr-2"><i
+                                            class="fas fa-search"></i> VER </button><button type="button"
+                                        class="btn btn-outline-danger mr-2"><i class="fas fa-trash-alt"></i> REMOVER
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td class="pt-4">Antonio</td>
+                                <td class="pt-4">Peixes</td>
+                                <td class="pt-4">
+                                    2021-03-14 15:22:06
+                                </td>
+                                <td><button class="btn btn-outline-success mr-2"><i class="fas fa-edit"></i> EDITAR
+                                    </button><button type="button" class="btn btn-outline-success mr-2"><i
+                                            class="fas fa-search"></i> VER </button><button type="button"
+                                        class="btn btn-outline-danger mr-2"><i class="fas fa-trash-alt"></i> REMOVER
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td class="pt-4">Mario</td>
+                                <td class="pt-4">Repteis</td>
+                                <td class="pt-4">
+                                    2021-02-10 12:15:12
+                                </td>
+                                <td><button class="btn btn-outline-success mr-2"><i class="fas fa-edit"></i> EDITAR
+                                    </button><button type="button" class="btn btn-outline-success mr-2"><i
+                                            class="fas fa-search"></i> VER </button><button type="button"
+                                        class="btn btn-outline-danger mr-2"><i class="fas fa-trash-alt"></i> REMOVER
+                                    </button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-1"></div>
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
